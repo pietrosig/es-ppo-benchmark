@@ -6,7 +6,7 @@ Welcome! 👋 This project benchmarks two leading reinforcement learning algorit
 
 ## 🚀 What This Project Does
 
-* **PPO Implementation:** Builds upon the [Simple‑PPO](https://github.com/asdfGuest/Simple-PPO/tree/main) framework by **asdfGuest**, integrated with our own modifications for enhanced logging and adaptive learning‑rate scheduling.
+* **PPO Implementation:** Builds upon the [Simple‑PPO](https://github.com/asdfGuest/Simple-PPO/tree/main) framework by **asdfGuest**, integrated with our own modifications for our task.
 * **Multi‑environment Benchmarking:** Trains and evaluates **PPO** and **ES** on OpenAI Gym tasks including **Bipedal Walker**, **Inverted Double Pendulum**, **Hopper**, **Walker2D**, and **Half‑Cheetah** .
 * **Training Dynamics Analysis:** Compares reward‑over‑time curves and 100‑run performance histograms to assess convergence speed and consistency—showing, for example, that PPO converges faster on most tasks while ES can be less noisy on smaller models .
 * **Scalability Study:** Varies policy network dimensionality (*n* = 4, 8, 16, 32, 64) to investigate how model size impacts ES vs. PPO performance, revealing that ES excels with compact policies whereas PPO benefits from larger networks .
